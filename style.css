@@ -1,0 +1,200 @@
+/* Set the background color of the page to grey */
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.parallax-container {
+    background-image: url('https://www.example.com/background.jpg');
+    background-size: cover;
+    height: 500px;
+    bottom: -180px;
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.parallax-container h2 {
+    font-size: 64px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.box {
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.box:before {
+    content: "";
+    background-image: url('https://www.example.com/overlay.png');
+    background-size: cover;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.box img {
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+.box p {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.btn {
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.btn-download {
+    background-color: #000000;
+}
+
+.btn-donate {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+.contact {
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .contact p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .contact img {
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contact img:hover {
+    transform: scale(1.2);
+  }
+  
+
+  
+  /* style the section with the contact information */
+  .parallax-container-2 {
+    background-image: url('https://www.example.com/background2.jpg');
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .parallax-container-2 h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 200px;
+  }
+  
